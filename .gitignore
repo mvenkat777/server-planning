@@ -1,0 +1,9 @@
+.idea
+vendor/
+bin/
+
+# wrapper for dockerised composer
+composer
+
+.phpunit.result.cache
+phpunit.xml

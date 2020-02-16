@@ -1,0 +1,25 @@
+{
+    "name": "mvenkat777/server-planning",
+    "description": "Calculates the number of servers needed to host a specified amount of virtual machines.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ServerPlanning\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "phpmetrics/phpmetrics": "^2.5"
+    },
+    "stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Venkatesh Mallina",
+            "email": "venkatesh.mallina83@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    }
+}
